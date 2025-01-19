@@ -25,16 +25,14 @@ This is the entry point for theme architect!
   - We will be using architect theme from [https://github.com/pages-themes/architect](https://github.com/pages-themes/architect). I'll just go ahead and copy info from its `_config.yml`
 - **Create a file called `Gemfile`**
   - Its like package.json but for ruby. It contains gems (packages for installation)
-  - In it add necessary gems for jekyll, and those related to the respective theme/template. ([example]())
+  - In it add necessary gems for jekyll, and those related to the respective theme/template. ([example](https://github.com/Anusree6154s/github-pages-website-demo-4/blob/main/Gemfile))
   - Bundle the gemfile by running `bundle install` or just `bundle`
 - **Create a file called `.gitignore`** specific to jekyll, automatically by running `npx gitignore jekyll`
 - **Adding files**:
   - Add a readme file that acts a starting point
-  - Add markdown posts in a folder named `_posts`. Posts must be name in format `yyyy-mm-dd-title.md`. ([example]())
-  - Add additonal [frontmatter](https://jekyllrb.com/docs/front-matter/) to any post or page that you make. ([example]())
-  - Add custom markdown pages [optional]. (example)
-  - Add custom html pages [optional]. (example)
-  - Add custom html components [optional]. (example)
+  - Add additonal [frontmatter](https://jekyllrb.com/docs/front-matter/) to any post or page that you make. ([example](https://github.com/Anusree6154s/github-pages-website-demo-4/blob/main/first-default-page.md?plain=1))
+  - Add custom markdown pages [optional]. ([example](https://github.com/Anusree6154s/github-pages-website-demo-4/blob/main/first-simple-page.md))
+  - Add custom html pages [optional]. ([example](https://github.com/Anusree6154s/github-pages-website-demo-4/blob/main/_layouts/default.html))
 
 ## **Running:**
 
