@@ -1,0 +1,10 @@
+title: Github Pages Website From Scratch
+description: Architect is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect
+
+
+# to make linking easier (remove teh posts out of dated folders)
+permalink: /:title
+
